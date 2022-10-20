@@ -54,7 +54,7 @@ Add each event listener for one kind of key event.
 ![scrrenshot](./doc/screenshot-5.JPG)
 
 ## Issues, suggestions and feature requests
-[link to GitHub issues]
+[link to GitHub issues](https://github.com/zjh1943/mendix-pluggable-widget-key-event-listening-container/issues)
 
 ## Development and contribution
 
