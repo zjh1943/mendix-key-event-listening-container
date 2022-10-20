@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.keyeventlisteningcontainer.KeyEventListeningContainer" pluginWidget="true" NeedsEntityContext="true" offlineCapable="true" supportedPlatform="Web" xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Key Event Listening Container</name>
+    <description>A container to listen Key events from the DOM nodes inside it.</description>
+    <icon />
+    <properties>
+        <propertyGroup caption="Main">
+            <propertyGroup caption="Key Event">
+                <property key="content" type="widgets" required="false">
+                    <caption>Content</caption>
+                    <description>Content of a box</description>
+                </property>
+                <property key="bindToWindow" type="boolean" required="true" defaultValue="false">
+                    <caption>Global mode</caption>
+                    <description>Listen events of the whole web page, rather than listen events of elements inside this container. If yes, the event listener will be binded to the `document.window`. </description>
+                </property>
+                <property key="keyEventListeners" type="object" isList="true" required="false">
+                    <caption>Key Event Listeners</caption>
+                    <description>Add each event listener for one kind of key event.</description>
+                    <properties>
+                        <propertyGroup caption="Handlers">
+                            <property key='keyCode' type="string" required='true'>
+                                <caption>Key</caption>
+                                <description > The `key` attribute of `KeyboardEvent`. e.g. 'q', 'Q', 'Enter'...
+Ref to: https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/codeSZ 
+                                </description>
+                            </property>
+                            <property key="handler" type="action" required="false">
+                                <caption>On key event </caption>
+                                <description />
+                            </property>
+                            <property key="eventType" type="enumeration" defaultValue="keyup">
+                                <caption>Event type</caption>
+                                <description />
+                                <enumerationValues>
+                                    <enumerationValue key="keyup">key up</enumerationValue>
+                                    <enumerationValue key="keydown">key down</enumerationValue>
+                                </enumerationValues>
+                            </property>
+                            <property key="shiftKey" type="enumeration" defaultValue="ignore">
+                                <caption>Need SHIFT key</caption>
+                                <description />
+                                <enumerationValues>
+                                    <enumerationValue key="ignore">Ignore</enumerationValue>
+                                    <enumerationValue key="yes">Yes</enumerationValue>
+                                    <enumerationValue key="no">No</enumerationValue>
+                                </enumerationValues>
+                            </property>
+                            <property key="ctrlKey" type="enumeration" defaultValue="ignore">
+                                <caption>Need CTRL key</caption>
+                                <description />
+                                <enumerationValues>
+                                    <enumerationValue key="ignore">Ignore</enumerationValue>
+                                    <enumerationValue key="yes">Yes</enumerationValue>
+                                    <enumerationValue key="no">No</enumerationValue>
+                                </enumerationValues>
+                            </property>
+                            <property key="altKey" type="enumeration" defaultValue="ignore">
+                                <caption>Need ALT key</caption>
+                                <description />
+                                <enumerationValues>
+                                    <enumerationValue key="ignore">Ignore</enumerationValue>
+                                    <enumerationValue key="yes">Yes</enumerationValue>
+                                    <enumerationValue key="no">No</enumerationValue>
+                                </enumerationValues>
+                            </property>
+
+                            <property key="metaKey" type="enumeration" defaultValue="ignore">
+                                <caption>Need META key</caption>
+                                <description />
+                                <enumerationValues>
+                                    <enumerationValue key="ignore">Ignore</enumerationValue>
+                                    <enumerationValue key="yes">Yes</enumerationValue>
+                                    <enumerationValue key="no">No</enumerationValue>
+                                </enumerationValues>
+                            </property>
+                        </propertyGroup>
+                    </properties>
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="system">
+                <systemProperty key="Editability" />
+                <systemProperty key="TabIndex" />
+                <systemProperty key="Visibility" />
+            </propertyGroup>
+        </propertyGroup>
+    </properties>
+
+</widget>

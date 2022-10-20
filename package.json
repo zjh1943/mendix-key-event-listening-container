@@ -1,0 +1,36 @@
+{
+  "name": "keyeventlisteningcontainer",
+  "widgetName": "KeyEventListeningContainer",
+  "version": "1.0.0",
+  "description": "A container to listen Key events from the DOM nodes inside it.",
+  "copyright": "© Mendix Technology BV 2022. All rights reserved.",
+  "author": "Jonathan Zhu",
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "Apache-2.0",
+  "config": {
+    "projectPath": "E:\\MyDocuments\\Mendix\\MyFirstApp-main",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": 3000
+  },
+  "packagePath": "mendix",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^9.0.0",
+    "@types/big.js": "^6.0.2",
+    "@types/react": "~17.0.1",
+    "@types/react-dom": "~17.0.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  }
+}
