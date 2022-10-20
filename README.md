@@ -22,7 +22,7 @@ A container to listen Key events in Mendix. The events can be from the DOM eleme
     4. Open your mendix project with the Mendix Studio Pro, click `Menu > App > Synchronize App Directory`.
 2. Add `KeyEventListeningContainer` widget into the page.
 3. Set properties of the `KeyEventListeningContainer` container widget. See next chapter about properties.
-4. Add other widgets into the `KeyEventListeningContainer` container widget. Only if 
+4. Add other widgets into the `KeyEventListeningContainer` container widget.
 
 
 ## Properties
