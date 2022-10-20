@@ -22,7 +22,7 @@
                             <property key='keyCode' type="string" required='true'>
                                 <caption>Key</caption>
                                 <description > The `key` attribute of `KeyboardEvent`. e.g. 'q', 'Q', 'Enter'...
-Ref to: https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/codeSZ 
+Ref to: https://developer.mozilla.org/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values 
                                 </description>
                             </property>
                             <property key="handler" type="action" required="false">
