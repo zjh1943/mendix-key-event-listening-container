@@ -43,7 +43,7 @@ Add each event listener for one kind of key event.
 
 ### Handlers
 
-1. `Key`. The `key` attribute of `KeyboardEvent`. e.g. 'q', 'Q', 'Enter'... Here is the whole key list: https://developer.mozilla.org/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values
+1. `Key`. Which key in the keyboard do you want to listen. e.g. 'q', 'Q', 'Enter'... Here is the whole key list: https://developer.mozilla.org/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values
 2. `On key event`. The action you want to do when receive the keyboard event.
 3. `Event type`. Want to listen key up event or key down event.
 4. Modifiler keys. support: SHIFT, ALT, CTRL, META.
