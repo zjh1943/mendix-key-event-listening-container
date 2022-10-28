@@ -52,11 +52,11 @@ Add each event listener for one kind of key event.
 ![scrrenshot](./doc/screenshot-5.JPG)
 
 ## Issues, suggestions and feature requests
-[link to GitHub issues](https://github.com/zjh1943/mendix-pluggable-widget-key-event-listening-container/issues)
+[link to GitHub issues](https://github.com/zjh1943/mendix-key-event-listening-container/issues)
 
 ## Development and contribution
 
-1. Clone the repostory. `git clone https://github.com/zjh1943/mendix-pluggable-widget-key-event-listening-container`
+1. Clone the repostory. `git clone https://github.com/zjh1943/mendix-key-event-listening-container`
 2. `cd ./mendix-key-event-listening-container`
 3. Open the `package.json` file . Change the `projectPath` to the root directory of your mendix project.
 4. In the folder `./mendix-key-event-listening-container`, Run `npm start` to watch for code changes. On every change:
