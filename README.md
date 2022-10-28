@@ -1,6 +1,6 @@
 ## KeyEventListeningContainer
 
-A container to listen Key events in Mendix. The events can be from the DOM elements inside this container or from the `document.window`.
+A mendix pluggable widget (container) to listen Key events. The events can be from the DOM elements inside this container or from the `document.window`.
 
 ## Features
 
