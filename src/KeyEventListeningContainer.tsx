@@ -26,14 +26,26 @@ export const KeyEventListeningContainer = (props: KeyEventListeningContainerCont
                 trigger = false;
             }
 
-            if (listener.altKey === "yes" && !event.altKey) trigger = false;
-            if (listener.altKey === "no" && event.altKey) trigger = false;
+            if (listener.altKey === "yes" && !event.altKey) {
+                trigger = false;
+            }
+            if (listener.altKey === "no" && event.altKey) {
+                trigger = false;
+            }
 
-            if (listener.ctrlKey === "yes" && !event.ctrlKey) trigger = false;
-            if (listener.ctrlKey === "no" && event.ctrlKey) trigger = false;
+            if (listener.ctrlKey === "yes" && !event.ctrlKey) {
+                trigger = false;
+            }
+            if (listener.ctrlKey === "no" && event.ctrlKey) {
+                trigger = false;
+            }
 
-            if (listener.shiftKey === "yes" && !event.shiftKey) trigger = false;
-            if (listener.shiftKey === "no" && event.shiftKey) trigger = false;
+            if (listener.shiftKey === "yes" && !event.shiftKey) {
+                trigger = false;
+            }
+            if (listener.shiftKey === "no" && event.shiftKey) {
+                trigger = false;
+            }
 
             if (trigger) {
                 listener.handler?.execute();
