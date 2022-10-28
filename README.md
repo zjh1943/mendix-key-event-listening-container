@@ -14,11 +14,9 @@ A mendix pluggable widget (container) to listen Key events. The events can be fr
 
 ## Usage
 
-1. Install this `KeyEventListeningContainer` pluggable widget into your Mendix Project.
-    1. Clone the repostory. `git clone https://github.com/zjh1943/mendix-pluggable-widget-key-event-listening-container`
-    2. `cd ./mendix-pluggable-widget-key-event-listening-container`
-    3. Open the `package.json` file . Change the `projectPath` to the root directory of your mendix project.
-    4. In the folder `./mendix-pluggable-widget-key-event-listening-container`, execute `run npm build`.
+1. Add this `KeyEventListeningContainer` pluggable widget into your Mendix Project.
+    1. Download the latest mpk file from [here]().
+    3. Copy the mpk file to `{YourMendixProjectFolder}/widgets/`.
     4. Open your mendix project with the Mendix Studio Pro, click `Menu > App > Synchronize App Directory`.
 2. Add `KeyEventListeningContainer` widget into the page.
 3. Set properties of the `KeyEventListeningContainer` container widget. See next chapter about properties.
@@ -58,10 +56,12 @@ Add each event listener for one kind of key event.
 
 ## Development and contribution
 
-1. Install NPM package dependencies by using: `npm install`. If you use NPM v7.x.x, which can be checked by executing `npm -v`, execute: `npm install --legacy-peer-deps`.
-1. Run `npm start` to watch for code changes. On every change:
+1. Clone the repostory. `git clone https://github.com/zjh1943/mendix-pluggable-widget-key-event-listening-container`
+2. `cd ./mendix-key-event-listening-container`
+3. Open the `package.json` file . Change the `projectPath` to the root directory of your mendix project.
+4. In the folder `./mendix-key-event-listening-container`, Run `npm start` to watch for code changes. On every change:
     - the widget will be bundled;
     - the bundle will be included in a `dist` folder in the root directory of the project;
     - the bundle will be included in the `deployment` and `widgets` folder of the Mendix test project.
+4. Open your mendix project with the Mendix Studio Pro, click `Menu > App > Synchronize App Directory`.
 
-[specify contribution]
