@@ -15,7 +15,7 @@ A mendix pluggable widget (container) to listen Key events. The events can be fr
 ## Usage
 
 1. Add this `KeyEventListeningContainer` pluggable widget into your Mendix Project.
-    1. Download the latest mpk file from [here]().
+    1. Download the latest mpk file from [here](https://github.com/zjh1943/mendix-key-event-listening-container/releases).
     3. Copy the mpk file to `{YourMendixProjectFolder}/widgets/`.
     4. Open your mendix project with the Mendix Studio Pro, click `Menu > App > Synchronize App Directory`.
 2. Add `KeyEventListeningContainer` widget into the page.
